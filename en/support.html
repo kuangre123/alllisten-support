@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AllListen Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 40px 24px 80px; max-width: 42rem;
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    color: #16181d; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e9ecf1; background: #0a0b0d; }
+    h1, h2 { color: #fff; }
+    .note, details { background: #16181d; border-color: #2a2d34; }
+  }
+  h1 { font-size: 1.7rem; margin: 0 0 .3rem; letter-spacing: -.01em; }
+  h2 { font-size: 1.05rem; margin: 2.2rem 0 .6rem; }
+  .meta { color: #6b7280; font-size: .85rem; margin-bottom: 2rem; }
+  .note {
+    background: #f5f6f8; border: 1px solid #e3e5e9; border-radius: 10px;
+    padding: 16px 18px; margin: 1.4rem 0;
+  }
+  details {
+    background: #f5f6f8; border: 1px solid #e3e5e9; border-radius: 10px;
+    padding: 12px 16px; margin: .6rem 0;
+  }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: .7rem 0 .2rem; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+
+<h1>AllListen Support</h1>
+<p class="meta">Your Apple Watch records the day's conversations; your iPhone turns them into a daily digest. · <a href="../support.html">中文</a></p>
+
+<div class="note">
+  <strong>Contact:</strong>
+  <a href="mailto:123428316@qq.com">123428316@qq.com</a><br>
+  Please include your iPhone and Apple Watch models and system versions; it helps us find the problem much faster.
+</div>
+
+<h2>Common questions</h2>
+
+<details>
+  <summary>What language is AllListen in?</summary>
+  <p>Simplified Chinese. The app's screens, the transcription and the daily digests are all made for conversations in Mandarin Chinese.</p>
+</details>
+
+<details>
+  <summary>What do I need?</summary>
+  <p>An Apple Watch with watchOS 26 or later, and an iPhone 12 or later with iOS 26 or later. Recording happens on the watch; transcription uses Apple's speech recognition on the iPhone itself, which iPhone 11 and iPhone SE (2nd generation) can't do.</p>
+</details>
+
+<details>
+  <summary>How do I start recording?</summary>
+  <p>Open AllListen on your Apple Watch and tap "开始录音" (Start recording). The first time, allow microphone access; this permission can only be given on the watch. After that you can lower your wrist and the watch keeps recording in the background. Where recording isn't appropriate, tap pause on the watch.</p>
+</details>
+
+<details>
+  <summary>When do recordings reach my iPhone? Why is there no transcript yet?</summary>
+  <p>The watch saves a new segment every 5 minutes and sends it whenever the iPhone is nearby; the iPhone transcribes each one as it arrives. Out of range, recordings wait on the watch and are sent once you're back near the iPhone. The first time, the iPhone needs to download the Chinese recognition model; recordings that arrive before it's ready are queued and transcribed automatically afterwards.</p>
+</details>
+
+<details>
+  <summary>Why is there no digest?</summary>
+  <p>Generating digests requires a subscription and a way to write them: Apple Intelligence if your iPhone supports it, or otherwise your own API key (for example from DeepSeek), entered in Settings under "整理方式" (summary method). Recording, transcription, transcripts and playback are free.</p>
+</details>
+
+<details>
+  <summary>Where do I get an API key?</summary>
+  <p>In Settings under "整理方式", choose a service and the app shows where to get a key for it. After saving the key, tap "测试一下" (Test) to check that it works. When you use your own key, that service charges you at its own prices, separately from the AllListen subscription.</p>
+</details>
+
+<details>
+  <summary>What does the subscription include, and how do I cancel?</summary>
+  <p>The subscription unlocks generating digests: the day's three main points, to-dos, a timeline and things worth remembering. It renews automatically, and you can cancel at any time in your iPhone's Settings › Apple Account › Subscriptions. After switching phones or reinstalling, tap "Restore Purchases" on the subscription page.</p>
+</details>
+
+<details>
+  <summary>Are my recordings uploaded?</summary>
+  <p>No. Audio stays only on your iPhone. Only if you choose "your own API key" is the transcribed text sent to the service you picked, and the app asks you before the first time.</p>
+</details>
+
+<details>
+  <summary>How do I delete my data?</summary>
+  <p>Delete a conversation from the "⋯" menu at the top right of its page; recordings past the retention period are deleted automatically. Deleting the app deletes all of its data.</p>
+</details>
+
+<h2>Feedback and suggestions</h2>
+<p>If you find a problem or would like a feature, please email us, describing the steps you took and what you expected.</p>
+
+<h2>Privacy</h2>
+<p>AllListen has no server and does not collect your data. See the <a href="privacy.html">Privacy Policy</a>.</p>
+
+</body>
+</html>
