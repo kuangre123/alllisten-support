@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AllListen 技术支持</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 40px 24px 80px; max-width: 42rem;
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    color: #16181d; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e9ecf1; background: #0a0b0d; }
+    h1, h2 { color: #fff; }
+    .note, details { background: #16181d; border-color: #2a2d34; }
+  }
+  h1 { font-size: 1.7rem; margin: 0 0 .3rem; letter-spacing: -.01em; }
+  h2 { font-size: 1.05rem; margin: 2.2rem 0 .6rem; }
+  .meta { color: #6b7280; font-size: .85rem; margin-bottom: 2rem; }
+  .note {
+    background: #f5f6f8; border: 1px solid #e3e5e9; border-radius: 10px;
+    padding: 16px 18px; margin: 1.4rem 0;
+  }
+  details {
+    background: #f5f6f8; border: 1px solid #e3e5e9; border-radius: 10px;
+    padding: 12px 16px; margin: .6rem 0;
+  }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: .7rem 0 .2rem; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+
+<h1>AllListen 技术支持</h1>
+<p class="meta">Apple Watch 录下白天的对话，iPhone 整理成日报</p>
+
+<div class="note">
+  <strong>联系方式：</strong>
+  <a href="mailto:123428316@qq.com">123428316@qq.com</a><br>
+  请在邮件里写明 iPhone 和 Apple Watch 的型号、系统版本，能大幅加快定位问题。
+</div>
+
+<h2>常见问题</h2>
+
+<details>
+  <summary>需要什么设备？</summary>
+  <p>一块 Apple Watch（watchOS 26 或更新），和一台 iPhone 12 或更新的机型（iOS 26 或更新）。录音在手表上进行；转写用 iPhone 本机的 Apple 语音识别，iPhone 11 和 SE（第二代）做不了本机转写。</p>
+</details>
+
+<details>
+  <summary>怎么开始录音？</summary>
+  <p>在 Apple Watch 上打开 AllListen，点「开始录音」。第一次会请你允许使用麦克风，这个权限只能在手表上给。开始以后可以放下手腕，手表会在后台接着录；不方便录的场合，在手表上点暂停。</p>
+</details>
+
+<details>
+  <summary>录音多久传到手机？为什么还没有逐字稿？</summary>
+  <p>手表每 5 分钟切一段，iPhone 在附近时陆续传过来，收到就在本机转写。离得太远时，录音先存在手表上，回到 iPhone 附近再补传。第一次用时 iPhone 要先下载中文的识别模型，下好之前收到的录音会排队，下好以后自动转。</p>
+</details>
+
+<details>
+  <summary>为什么没有日报？</summary>
+  <p>生成日报需要订阅，还要选一种整理方式：iPhone 支持 Apple 智能时可以用它；不支持的话，在设置的「整理方式」里填一个自己的 API Key（比如 DeepSeek 的）。录音、转写、看逐字稿和回放都是免费的。</p>
+</details>
+
+<details>
+  <summary>API Key 到哪里申请？</summary>
+  <p>在设置的「整理方式」里选一家服务，下面会写到哪里申请。填好后点「测试一下」，看能不能用。用自己的 Key 时，那家服务按它自己的价格收费，和 AllListen 的订阅是两回事。</p>
+</details>
+
+<details>
+  <summary>订阅包含什么？怎么取消？</summary>
+  <p>订阅解锁生成日报：今天的三件事、要做的事、时间线和值得记住。订阅会自动续期，可以随时在 iPhone 的「设置 › Apple 账户 › 订阅」里取消；换了手机或重装 App 后，在付费页点「恢复购买」。</p>
+</details>
+
+<details>
+  <summary>我的录音会上传吗？</summary>
+  <p>不会。音频只存在你的 iPhone 上。只有你选了「自己的 API Key」时，转写出来的文字才会发给你选的那家服务，第一次发之前会先问你。</p>
+</details>
+
+<details>
+  <summary>怎么删除数据？</summary>
+  <p>在对话详情右上角的「⋯」里可以删除一段对话；超出保留期的录音会自动删除。删掉 App，所有数据都会一起删除。</p>
+</details>
+
+<h2>反馈与建议</h2>
+<p>发现问题或想要某个功能，都欢迎发邮件。请尽量描述清楚操作步骤和预期结果。</p>
+
+<h2>隐私</h2>
+<p>AllListen 没有服务器，不收集你的数据。详见 <a href="privacy.html">隐私政策</a>。</p>
+
+</body>
+</html>
